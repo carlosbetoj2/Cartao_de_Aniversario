@@ -1,0 +1,93 @@
+@media screen and (min-width: 769px) {
+  :root {
+    --card-width: 15.2vw;
+    --card-height: 41vh;
+  }
+
+  .birthday-card {
+    width: var(--card-width);
+    height: var(--card-height);
+  }
+
+  .card-front {
+    width: var(--card-width);
+    height: var(--card-height);
+  }
+
+  .card-inside {
+    width: var(--card-width);
+    height: var(--card-height);
+  }
+}
+
+@media screen and (max-width: 426px){
+  /* :root {
+    --card-width: 67.2vw;
+    --card-height: 45vh;
+  } */
+  :root {
+    --card-width: 83.2vw;
+    --card-height: 62vh;
+  }
+
+  .birthday-card {
+    width: var(--card-width);
+    height: var(--card-height);
+  }
+
+  .card-front {
+    width: var(--card-width);
+    height: var(--card-height);
+  }
+
+  .card-inside {
+    width: var(--card-width);
+    height: var(--card-height);
+  }
+
+  .text-inside {
+    position: relative; /* Certifica-se de que os filhos podem ser posicionados relativamente a este contêiner */
+  }
+
+  .text-inside #head {
+    position: relative;
+    top: 10.7pc; /* Ajuste o valor para a posição desejada */
+  }
+
+  .text-inside #body {
+    position: relative;
+    top: 9.5pc;
+  }
+
+  .text-inside #birthday-person {
+    position: relative;
+    top: 8pc;
+  }
+
+  p {
+    position: relative;
+    top: -2.5pc;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  :root {
+    --card-width: 92.2vw;
+    --card-height: 45vh;
+  }
+
+  .birthday-card {
+    width: var(--card-width);
+    height: var(--card-height);
+  }
+
+  .card-front {
+    width: var(--card-width);
+    height: var(--card-height);
+  }
+
+  .card-inside {
+    width: var(--card-width);
+    height: var(--card-height);
+  }
+}
